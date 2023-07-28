@@ -1,0 +1,106 @@
+    
+  .ContainForm{  
+    display: flex;
+	align-items: flex-start;
+	justify-content: center;
+  }
+
+.formulario {
+	width: 50%;
+	margin-top: 1.5rem;
+	background: #fff;
+	border-radius: 1rem;
+	padding-top: 1rem;
+  	padding-left: 1.2rem;
+  	padding-right: 3rem;
+  	padding-bottom: 1rem;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+	display: flex;
+	flex-direction: column;
+}
+
+.ContainerName{
+	width: 100%;
+}
+
+.ContainerEmailTelefono{
+	display: flex;
+}
+
+.ContainerEmail{
+	margin-right: 1rem;
+}
+
+.ContainerTelefono{
+	margin-left: 1rem;
+}
+
+.formulario > div {
+	margin-bottom: 0.8rem;
+}
+
+.formulario label {
+	font-weight: 600;
+	font-size: 1rem;
+	color: #1f1f1f;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.formulario input,
+.formulario textarea {
+	font-family: 'Open Sans', sans-serif;
+	width: 100%;
+	border-radius: 0.2rem;
+	border: 2px solid #e2e2e2;
+	font-size: 1.1rem;
+	padding: 0.7rem;
+  	margin-bottom: 0.2rem;
+	color: #1f1f1f;
+}
+
+.formulario input:focus {
+	outline: none;
+	border: 2px solid #333;
+}
+
+.formulario textarea:focus {
+	outline: none;
+	border: 2px solid #333;
+}
+
+.formulario .error {
+	color: #e92b2d;
+	font-weight: 600;
+	font-size: 12px;
+}
+
+.formulario button[type="submit"] {
+	display: flex;
+	justify-content: center;
+	background: #333;
+	font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
+	border: none;
+	cursor: pointer;
+	width: 104%;
+	padding: 10px;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 16px;
+	transition: .3s ease all;
+}
+
+.formulario button[type="submit"]:hover {
+	background: #444;
+}
+
+.formulario .exito {
+	text-align: center;
+	font-size: 14px;
+	padding-top: 20px;
+	color: #02a802;
+}
+
+.formulario input[type="radio"] {
+	width: auto;
+}

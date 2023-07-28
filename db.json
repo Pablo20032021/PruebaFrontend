@@ -1,0 +1,59 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john@example.com",
+      "telefono": "3059405494",
+      "experiencia": "Trabaje 7 meses como asesor de una aerolinea",
+      "puestosinteres": "desarrollador",
+      "Curriculum": "Curriculum1.pdf"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "telefono": "345345345",
+      "experiencia": "Trabaje 12 meses como mecanico",
+      "puestosinteres": "analista",
+      "Curriculum": "Curriculum2.pdf"
+    },
+    {
+      "name": "fhgfhfgh",
+      "email": "pabloandres1994@hotmail.com",
+      "telefono": "435345435",
+      "experiencia": "gfhfghgfh",
+      "interes": [
+        "ocean",
+        "purple"
+      ],
+      "cv": "C:\\fakepath\\Cédula.pdf",
+      "id": 3
+    },
+    {
+      "name": "Pablo Gomez",
+      "email": "pabloandres1994@hotmail.com",
+      "telefono": "3507507516",
+      "experiencia": "fghgfhgfhfghfghgfhgfhgfh",
+      "interes": [
+        "Developer",
+        "Adviser",
+        "Analist"
+      ],
+      "cv": "C:\\fakepath\\prueba front.pdf",
+      "id": 4
+    },
+    {
+      "name": "Pablo Gomez",
+      "email": "pabloandres1994@hotmail.com",
+      "telefono": "3507507516",
+      "experiencia": "ghgfhgfhgfhfghfghgfhfghfghfgh",
+      "interes": [
+        "Adviser",
+        "Analist"
+      ],
+      "cv": "C:\\fakepath\\prueba front.pdf",
+      "id": 5
+    }
+  ]
+}
